@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: rgb(9, 6, 33);
+}
+
+.page {
+  background-image: url("../img/bc-img.jpg");
+  background-color: rgb(9, 6, 33);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.logo {
+  font-size: 50px;
+  color: rgb(255, 200, 13);
+}
+
+#button {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(255, 200, 13);
+  opacity: 0.8;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+}
+
+#button:hover {
+  opacity: 1;
+}
+
+#button:focus {
+  outline: 0;
+}
+
+#button:active {
+  background-color: rgb(100, 96, 82);
+}
+
+.info {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+  color: white;
+  border: 1px solid rgb(255, 200, 13);
+  border-radius: 10px;
+  background-color: rgba(9, 6, 33, 0.6);
+}
